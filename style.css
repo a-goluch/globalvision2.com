@@ -149,13 +149,75 @@ h2 {
   padding-top: 20px;
 }
 
-table {
+.about-table {
   width: 100%;
   text-align: center;
 }
 
-table img {
+.about-table img {
   float: left;
+}
+
+.contestant-table {
+  text-align: center;
+  float: right;
+  width: 30%;
+}
+
+.contestant-table img {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.contestant-table a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.contestant-table li {
+  padding-right: 15%;
+}
+
+.contestant-info {
+  float: left;
+  width: 60%;
+}
+
+.participation-table {
+  width: 400px;
+  text-align: center;
+}
+
+.participation-table img {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.achievements-table {
+  width: 200px;
+  text-align: center;
+}
+
+.topScores-table {
+  width: 1000px;
+  text-align: center;
+}
+
+.topScores-table a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.given-table {
+  text-align: center;
+  float: left;
+  width: 30%
+}
+
+.received-table {
+  text-align: center;
+  float: right;
+  width: 50%;
 }
 
 table, th, td {
@@ -174,6 +236,22 @@ th {
 
 tr:nth-child(even) {
   background-color: #cce6ff;
+}
+
+.contestant-iconic {
+  clear: both;
+}
+
+#first {
+  background-color: #ffd700;
+}
+
+#second {
+  background-color: #c0c0c0;
+}
+
+#third {
+  background-color: #cc9966;
 }
 
 #topBtn {
