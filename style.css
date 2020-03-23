@@ -118,7 +118,7 @@ a:hover {
 }
 
 .active, .collapsible:hover {
-  background-color: #EBF5FB;
+  background-color: #99ceff;
 }
 
 .coll-content {
@@ -126,7 +126,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #cce6ff;
 }
 
 ul {
