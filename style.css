@@ -9,10 +9,7 @@ header {
 body {
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 100px;
-  width: 90%;
 }
 
 
@@ -135,8 +132,9 @@ ul {
 }
 
 .content {
-  margin: auto;
-  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   padding-top: 50px;
   letter-spacing: 1px;
 }
