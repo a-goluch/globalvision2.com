@@ -255,6 +255,10 @@ tr:nth-child(even) {
   background-color: #cc9966;
 }
 
+#last {
+  background-color: #fd4e4e;
+}
+
 #topBtn {
   display: none;
   position: fixed;
