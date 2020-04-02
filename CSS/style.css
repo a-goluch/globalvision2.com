@@ -1,41 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 100px 0;
+}
 
 header {
-  background:linear-gradient(deepSkyBlue, white);
-  height: 150px;
+  background-color: #00bfff;
+  height: 160px;
   line-height: 150px;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 100px;
+.container {
+  max-width: 1400;
+  margin-left: 50px;
+  margin-right: 100px;
 }
-
 
 .container img {
   float: left;
 }
 
 header a {
-  color: darkBlue;
+  color: #00008c;
   text-decoration: none;
 
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 header a:hover {
-  color: #154360;
+  color: #002633;
 }
 
 .header-title {
   display: block;
   float: left;
 
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -43,25 +45,19 @@ header a:hover {
   display: block;
   float: right;
   margin-top: 0px;
-  margin-right: 50px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .header-nav li {
   display: inline;
-  padding-left: 30px;
-}
-
-.container {
-  max-width: 1400;
-  margin: 0 auto;
+  padding-left: 40px;
 }
 
 .welcome {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 70px;
 }
 
 a {
@@ -70,14 +66,13 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #002633;
 }
 
 .lists ul {
   margin: auto;
-  width: 50%;
   text-align: center;
-  padding-right: 50px;
+  padding: 20px 50px 20px 50px;
 }
 
 .lists li {
@@ -105,20 +100,20 @@ a:hover {
 }
 
 .collapsible {
-  background-color: deepSkyBlue;
-  color: darkBlue;
+  background-color: #00bfff;
+  color: #002633;
   font-weight: bold;
   font-size: 25px;
   cursor: pointer;
   padding: 25px;
   width: 100%;
-  border: solid, black;
   text-align: center;
   outline: none;
+  box-shadow: 5px 5px #0083b3;
 }
 
 .active, .collapsible:hover {
-  background-color: #99ceff;
+  background-color: #99e4ff;
 }
 
 .coll-content {
@@ -137,7 +132,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  padding-top: 50px;
+  padding-top: 20px;
   letter-spacing: 1px;
 }
 
@@ -156,6 +151,31 @@ h2 {
 
 .about-table img {
   float: left;
+}
+
+.country-table {
+  text-align: center;
+  float: right;
+  width: 30%;
+  margin-right: 2%;
+}
+
+.country-table img {
+  align-items: center;
+}
+
+.country-table a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.country-table li {
+  padding-right: 15%;
+}
+
+.country-info {
+  float: left;
+  width: 60%;
 }
 
 .contestant-table {
@@ -221,6 +241,10 @@ h2 {
   width: 50%;
 }
 
+table {
+  box-shadow: 5px 5px #0083b3;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -231,12 +255,11 @@ th, td {
 }
 
 th {
-  background-color: deepSkyBlue;
-  color: darkBlue;
+  background-color: #00bfff;
 }
 
 tr:nth-child(even) {
-  background-color: #cce6ff;
+  background-color: #ccf1ff;
 }
 
 .contestant-iconic {
@@ -271,8 +294,9 @@ tr:nth-child(even) {
   color: #99ceff;
   cursor: pointer;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 40px;
   font-size: 18px;
+  box-shadow: 5px 5px #00bbff;
 }
 
 #topBtn:hover {
