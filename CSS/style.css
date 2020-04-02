@@ -5,6 +5,14 @@ body {
   margin: 0 0 100px 0;
 }
 
+body p {
+  background-color: #e6f8ff;
+  border-left: 5px solid #00bfff;
+  padding: 10px;
+  box-shadow: 5px 5px #0083b3;
+
+}
+
 header {
   background-color: #00bfff;
   height: 160px;
@@ -137,11 +145,7 @@ ul {
 }
 
 h1, h2 {
-  padding-bottom: 20px;
-}
-
-h2 {
-  padding-top: 20px;
+  padding: 20px 0 20px 0;
 }
 
 .about-table {
